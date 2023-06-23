@@ -24,5 +24,10 @@ public:
 			return;
 		}
 
-	
+		//cek apakah queue is empty
+		if (FRONT == -1) {
+			FRONT = 0;
+			REAR = 0;
+		}
+		
 };
