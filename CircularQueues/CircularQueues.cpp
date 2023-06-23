@@ -44,6 +44,5 @@ public:
 			cout << "Queue underflow\n";
 			return;
 		}
-		
 	}
 };
